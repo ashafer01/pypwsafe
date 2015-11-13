@@ -380,7 +380,7 @@ class TreeDisplayStatusHeader(Header):
         return self.status
 
 # Header(4,4,'Ao\xc8L'),
-from pypwsafe.PWSafeV3Records import parsedatetime, makedatetime
+from PWSafeV3Records import parsedatetime, makedatetime
 import time
 class TimeStampOfLastSaveHeader(Header):
     """ Timestamp of last save. 
